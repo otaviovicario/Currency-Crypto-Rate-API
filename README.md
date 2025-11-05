@@ -8,9 +8,21 @@ Provides real-time exchange rates for any currency or cryptocurrency against BRL
 - Requests library
 - JSON handling
 
+<br>
+
 ## 🚀 Project Description
 This project fetches current exchange rates for both traditional currencies and cryptocurrencies, converting them to BRL.  
 It demonstrates the ability to integrate with financial APIs, handle data programmatically, and provide automated currency conversion — key skills for fintech backend systems.
+
+<br>
+
+## 🔗 Data Source
+This project consumes the **AwesomeAPI** public API to fetch real-time exchange rates for currencies and cryptocurrencies against BRL.
+
+Example API request:
+```bash
+GET https://economia.awesomeapi.com.br/json/last/BTC-BRL
+```
 
 ## ⚙️ How to Run
 1. Clone this repository:
@@ -30,6 +42,8 @@ pip install -r requirements.txt
 python currency_api.py
 ```
 
+<br>
+
 ## ⚙️ Example
 
 input:<br>
@@ -43,4 +57,4 @@ output:<br>
 🔖 Tags
 
 #Python #API #FinancialData #Fintech #Crypto #Currencies #Backend 
-# Financeiro #TecnologiaBancaria #Moedas
+#Financeiro #TecnologiaBancaria #Moedas
